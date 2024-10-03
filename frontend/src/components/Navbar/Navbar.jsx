@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './/Navbar.css'
-import logo from '../Assests/logo.png'
-import cart_icon from '../Assests/cart_icon.png'
+import logo from '../Assets/logo.png'
+import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
 function Navbar() {
 
@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='nav-logo'>
-        <img src={logo} alt=''/>
+        <img src={logo} alt=''  width={90} height={70}/>
         <p>PRICEWISE</p>
       </div>
       <ul className="nav-menu">

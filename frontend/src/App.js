@@ -7,7 +7,7 @@ import Product from './pages/Product.jsx';
 import Cart from './pages/Cart.jsx';
 import Login from './pages/Login.jsx';
 
-
+  
 function App() {
   return (
     <div>
